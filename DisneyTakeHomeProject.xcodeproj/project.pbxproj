@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		05EF8CD828DBC1F300BF45B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8CD728DBC1F300BF45B0 /* AppDelegate.swift */; };
 		05EF8CDA28DBC1F300BF45B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8CD928DBC1F300BF45B0 /* SceneDelegate.swift */; };
-		05EF8CDC28DBC1F300BF45B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8CDB28DBC1F300BF45B0 /* ViewController.swift */; };
-		05EF8CDF28DBC1F300BF45B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EF8CDD28DBC1F300BF45B0 /* Main.storyboard */; };
 		05EF8CE128DBC1F400BF45B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05EF8CE028DBC1F400BF45B0 /* Assets.xcassets */; };
 		05EF8CE428DBC1F400BF45B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EF8CE228DBC1F400BF45B0 /* LaunchScreen.storyboard */; };
-		05EF8CEF28DBC1F400BF45B0 /* DisneyTakeHomeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8CEE28DBC1F400BF45B0 /* DisneyTakeHomeProjectTests.swift */; };
-		05EF8CF928DBC1F400BF45B0 /* DisneyTakeHomeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8CF828DBC1F400BF45B0 /* DisneyTakeHomeProjectUITests.swift */; };
-		05EF8CFB28DBC1F400BF45B0 /* DisneyTakeHomeProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8CFA28DBC1F400BF45B0 /* DisneyTakeHomeProjectUITestsLaunchTests.swift */; };
+		05EF8D0C28DBC42D00BF45B0 /* ComicDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8D0B28DBC42D00BF45B0 /* ComicDetailsViewController.swift */; };
+		05EF8D0F28DBC4EC00BF45B0 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8D0E28DBC4EC00BF45B0 /* NetworkingManager.swift */; };
+		05EF8D1228DBCD7900BF45B0 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8D1128DBCD7900BF45B0 /* Extension+String.swift */; };
+		05EF8D1B28DBD0FE00BF45B0 /* ComicsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8D1A28DBD0FE00BF45B0 /* ComicsContainer.swift */; };
+		05EF8D1E28DCBF1D00BF45B0 /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8D1D28DCBF1D00BF45B0 /* Symbols.swift */; };
+		05EF8D2028DCC5D000BF45B0 /* ComicDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8D1F28DCC5D000BF45B0 /* ComicDetailsViewModel.swift */; };
+		05EF8D2228DCCD1C00BF45B0 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8D2128DCCD1C00BF45B0 /* Extension+UIViewController.swift */; };
+		05EF8D2A28DCD2FA00BF45B0 /* ComicDetailsViewModelSuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8D2928DCD2FA00BF45B0 /* ComicDetailsViewModelSuccessTests.swift */; };
+		05EF8D2E28DCDEE200BF45B0 /* ComicDetailsSuccessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8D2D28DCDEE200BF45B0 /* ComicDetailsSuccessUITests.swift */; };
+		05EF8D6D28DE55CE00BF45B0 /* UITestingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8D6C28DE55CE00BF45B0 /* UITestingHelper.swift */; };
+		05EF8D6E28DE56F300BF45B0 /* NetworkingManagerComicSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8D2528DCCF9400BF45B0 /* NetworkingManagerComicSuccessMock.swift */; };
+		05EF8D7228DE6C6B00BF45B0 /* ImageLoaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8D7128DE6C6B00BF45B0 /* ImageLoaderManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +46,24 @@
 		05EF8CD428DBC1F300BF45B0 /* DisneyTakeHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyTakeHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05EF8CD728DBC1F300BF45B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05EF8CD928DBC1F300BF45B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		05EF8CDB28DBC1F300BF45B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		05EF8CDE28DBC1F300BF45B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05EF8CE028DBC1F400BF45B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05EF8CE328DBC1F400BF45B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05EF8CE528DBC1F400BF45B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05EF8CEA28DBC1F400BF45B0 /* DisneyTakeHomeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyTakeHomeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		05EF8CEE28DBC1F400BF45B0 /* DisneyTakeHomeProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyTakeHomeProjectTests.swift; sourceTree = "<group>"; };
 		05EF8CF428DBC1F400BF45B0 /* DisneyTakeHomeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyTakeHomeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		05EF8CF828DBC1F400BF45B0 /* DisneyTakeHomeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyTakeHomeProjectUITests.swift; sourceTree = "<group>"; };
-		05EF8CFA28DBC1F400BF45B0 /* DisneyTakeHomeProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyTakeHomeProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05EF8D0B28DBC42D00BF45B0 /* ComicDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDetailsViewController.swift; sourceTree = "<group>"; };
+		05EF8D0E28DBC4EC00BF45B0 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		05EF8D1128DBCD7900BF45B0 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		05EF8D1A28DBD0FE00BF45B0 /* ComicsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsContainer.swift; sourceTree = "<group>"; };
+		05EF8D1D28DCBF1D00BF45B0 /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		05EF8D1F28DCC5D000BF45B0 /* ComicDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDetailsViewModel.swift; sourceTree = "<group>"; };
+		05EF8D2128DCCD1C00BF45B0 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		05EF8D2528DCCF9400BF45B0 /* NetworkingManagerComicSuccessMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManagerComicSuccessMock.swift; sourceTree = "<group>"; };
+		05EF8D2928DCD2FA00BF45B0 /* ComicDetailsViewModelSuccessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDetailsViewModelSuccessTests.swift; sourceTree = "<group>"; };
+		05EF8D2D28DCDEE200BF45B0 /* ComicDetailsSuccessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDetailsSuccessUITests.swift; sourceTree = "<group>"; };
+		05EF8D6C28DE55CE00BF45B0 /* UITestingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingHelper.swift; sourceTree = "<group>"; };
+		05EF8D7128DE6C6B00BF45B0 /* ImageLoaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderManager.swift; sourceTree = "<group>"; };
+		05EF8D7328DE701700BF45B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +94,7 @@
 		05EF8CCB28DBC1F300BF45B0 = {
 			isa = PBXGroup;
 			children = (
+				05EF8D7328DE701700BF45B0 /* README.md */,
 				05EF8CD628DBC1F300BF45B0 /* DisneyTakeHomeProject */,
 				05EF8CED28DBC1F400BF45B0 /* DisneyTakeHomeProjectTests */,
 				05EF8CF728DBC1F400BF45B0 /* DisneyTakeHomeProjectUITests */,
@@ -99,10 +115,17 @@
 		05EF8CD628DBC1F300BF45B0 /* DisneyTakeHomeProject */ = {
 			isa = PBXGroup;
 			children = (
+				05EF8D7028DE6C5700BF45B0 /* ImageLoader */,
+				05EF8D2428DCCF7A00BF45B0 /* Mocks */,
+				05EF8D6B28DE55BD00BF45B0 /* UITesting */,
+				05EF8D1C28DCBF0E00BF45B0 /* Resources */,
+				05EF8D1928DBD09700BF45B0 /* Model */,
+				05EF8D1428DBCF2300BF45B0 /* ViewModel */,
+				05EF8D1028DBCD6300BF45B0 /* Extensions */,
+				05EF8D0D28DBC4E400BF45B0 /* Network */,
+				05EF8D0828DBC41500BF45B0 /* ViewController */,
 				05EF8CD728DBC1F300BF45B0 /* AppDelegate.swift */,
 				05EF8CD928DBC1F300BF45B0 /* SceneDelegate.swift */,
-				05EF8CDB28DBC1F300BF45B0 /* ViewController.swift */,
-				05EF8CDD28DBC1F300BF45B0 /* Main.storyboard */,
 				05EF8CE028DBC1F400BF45B0 /* Assets.xcassets */,
 				05EF8CE228DBC1F400BF45B0 /* LaunchScreen.storyboard */,
 				05EF8CE528DBC1F400BF45B0 /* Info.plist */,
@@ -113,7 +136,7 @@
 		05EF8CED28DBC1F400BF45B0 /* DisneyTakeHomeProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				05EF8CEE28DBC1F400BF45B0 /* DisneyTakeHomeProjectTests.swift */,
+				05EF8D2328DCCF5F00BF45B0 /* ComicDetails */,
 			);
 			path = DisneyTakeHomeProjectTests;
 			sourceTree = "<group>";
@@ -121,10 +144,98 @@
 		05EF8CF728DBC1F400BF45B0 /* DisneyTakeHomeProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
-				05EF8CF828DBC1F400BF45B0 /* DisneyTakeHomeProjectUITests.swift */,
-				05EF8CFA28DBC1F400BF45B0 /* DisneyTakeHomeProjectUITestsLaunchTests.swift */,
+				05EF8D2D28DCDEE200BF45B0 /* ComicDetailsSuccessUITests.swift */,
 			);
 			path = DisneyTakeHomeProjectUITests;
+			sourceTree = "<group>";
+		};
+		05EF8D0828DBC41500BF45B0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				05EF8D0B28DBC42D00BF45B0 /* ComicDetailsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		05EF8D0D28DBC4E400BF45B0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				05EF8D0E28DBC4EC00BF45B0 /* NetworkingManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		05EF8D1028DBCD6300BF45B0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				05EF8D1128DBCD7900BF45B0 /* Extension+String.swift */,
+				05EF8D2128DCCD1C00BF45B0 /* Extension+UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		05EF8D1428DBCF2300BF45B0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				05EF8D1F28DCC5D000BF45B0 /* ComicDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		05EF8D1928DBD09700BF45B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05EF8D1A28DBD0FE00BF45B0 /* ComicsContainer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		05EF8D1C28DCBF0E00BF45B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05EF8D1D28DCBF1D00BF45B0 /* Symbols.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		05EF8D2328DCCF5F00BF45B0 /* ComicDetails */ = {
+			isa = PBXGroup;
+			children = (
+				05EF8D2928DCD2FA00BF45B0 /* ComicDetailsViewModelSuccessTests.swift */,
+			);
+			path = ComicDetails;
+			sourceTree = "<group>";
+		};
+		05EF8D2428DCCF7A00BF45B0 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				05EF8D6F28DE570100BF45B0 /* ComicDetails */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		05EF8D6B28DE55BD00BF45B0 /* UITesting */ = {
+			isa = PBXGroup;
+			children = (
+				05EF8D6C28DE55CE00BF45B0 /* UITestingHelper.swift */,
+			);
+			path = UITesting;
+			sourceTree = "<group>";
+		};
+		05EF8D6F28DE570100BF45B0 /* ComicDetails */ = {
+			isa = PBXGroup;
+			children = (
+				05EF8D2528DCCF9400BF45B0 /* NetworkingManagerComicSuccessMock.swift */,
+			);
+			path = ComicDetails;
+			sourceTree = "<group>";
+		};
+		05EF8D7028DE6C5700BF45B0 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				05EF8D7128DE6C6B00BF45B0 /* ImageLoaderManager.swift */,
+			);
+			path = ImageLoader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +309,7 @@
 					};
 					05EF8CE928DBC1F400BF45B0 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 						TestTargetID = 05EF8CD328DBC1F300BF45B0;
 					};
 					05EF8CF328DBC1F400BF45B0 = {
@@ -233,7 +345,6 @@
 			files = (
 				05EF8CE428DBC1F400BF45B0 /* LaunchScreen.storyboard in Resources */,
 				05EF8CE128DBC1F400BF45B0 /* Assets.xcassets in Resources */,
-				05EF8CDF28DBC1F300BF45B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +369,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05EF8CDC28DBC1F300BF45B0 /* ViewController.swift in Sources */,
+				05EF8D6E28DE56F300BF45B0 /* NetworkingManagerComicSuccessMock.swift in Sources */,
 				05EF8CD828DBC1F300BF45B0 /* AppDelegate.swift in Sources */,
+				05EF8D7228DE6C6B00BF45B0 /* ImageLoaderManager.swift in Sources */,
+				05EF8D1B28DBD0FE00BF45B0 /* ComicsContainer.swift in Sources */,
+				05EF8D1E28DCBF1D00BF45B0 /* Symbols.swift in Sources */,
+				05EF8D1228DBCD7900BF45B0 /* Extension+String.swift in Sources */,
+				05EF8D2028DCC5D000BF45B0 /* ComicDetailsViewModel.swift in Sources */,
+				05EF8D6D28DE55CE00BF45B0 /* UITestingHelper.swift in Sources */,
+				05EF8D2228DCCD1C00BF45B0 /* Extension+UIViewController.swift in Sources */,
+				05EF8D0F28DBC4EC00BF45B0 /* NetworkingManager.swift in Sources */,
+				05EF8D0C28DBC42D00BF45B0 /* ComicDetailsViewController.swift in Sources */,
 				05EF8CDA28DBC1F300BF45B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05EF8CEF28DBC1F400BF45B0 /* DisneyTakeHomeProjectTests.swift in Sources */,
+				05EF8D2A28DCD2FA00BF45B0 /* ComicDetailsViewModelSuccessTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05EF8CFB28DBC1F400BF45B0 /* DisneyTakeHomeProjectUITestsLaunchTests.swift in Sources */,
-				05EF8CF928DBC1F400BF45B0 /* DisneyTakeHomeProjectUITests.swift in Sources */,
+				05EF8D2E28DCDEE200BF45B0 /* ComicDetailsSuccessUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +416,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		05EF8CDD28DBC1F300BF45B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05EF8CDE28DBC1F300BF45B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		05EF8CE228DBC1F400BF45B0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +552,7 @@
 				INFOPLIST_FILE = DisneyTakeHomeProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,7 +564,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -468,7 +579,7 @@
 				INFOPLIST_FILE = DisneyTakeHomeProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +591,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -489,14 +600,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Chang.DisneyTakeHomeProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneyTakeHomeProject.app/DisneyTakeHomeProject";
@@ -508,10 +626,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Chang.DisneyTakeHomeProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
